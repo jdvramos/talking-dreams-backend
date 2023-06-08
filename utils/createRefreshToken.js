@@ -6,7 +6,7 @@ const createRefreshToken = (email) => {
             email,
         },
         process.env.REFRESH_TOKEN_SECRET,
-        { expiresIn: "1d" }
+        { expiresIn: "3d" }
     );
 
     return refreshToken;

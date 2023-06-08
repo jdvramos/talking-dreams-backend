@@ -46,7 +46,7 @@ module.exports.registerUser = async (req, res) => {
         httpOnly: true,
         sameSite: "None",
         secure: true,
-        maxAge: 24 * 60 * 60 * 1000,
+        maxAge: 3 * 24 * 60 * 60 * 1000,
     });
 
     // // Use this instead when testing over network
@@ -104,7 +104,7 @@ module.exports.loginUser = async (req, res) => {
         httpOnly: true,
         sameSite: "None",
         secure: true,
-        maxAge: 24 * 60 * 60 * 1000,
+        maxAge: 3 * 24 * 60 * 60 * 1000,
     });
 
     // // Use this instead when testing over network
