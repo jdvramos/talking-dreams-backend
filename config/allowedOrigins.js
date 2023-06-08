@@ -1,5 +1,5 @@
 const allowedOrigins = [
-    "https://talking-dreams-frontend.onrender.com/",
+    "https://talking-dreams-frontend.onrender.com",
     "http://192.168.1.12:5173",
     "http://192.168.1.11:5173",
     "http://192.168.1.4:5173",
